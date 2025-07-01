@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Ofertas do Dia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" href="logo.png" type="image/png">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,6 +14,19 @@
       margin: 0;
       padding: 0;
     }
+
+   .topo-logo {
+     display: flex;
+     align-items: center;
+     gap: 500px; /* grade  */
+}
+
+   .topo-logo img {
+    width: 200px; /* tamanhoda imagem */
+    height: auto;
+    border-radius: 10px; /* opcional: deixa a imagem com cantos arredondados */
+}
+
 
     header {
       background-color: #feff02;
@@ -99,10 +114,16 @@
 <body>
 
 <header>
-  <h1>Ofertas do Dia</h1>
-  <p>As melhores promoções da Shopee em um só lugar!</p>
-  <p><small>🔄 Última atualização: Junho/2025</small></p>
+  <div class="topo-logo">
+    <img src="logo.png" alt="Logo do site">
+    <div>
+      <h1>Ofertas do Dia</h1>
+      <p>As melhores promoções da Shopee em um só lugar!</p>
+      <p><small>🔄 Última atualização: 01 de Junho/2025</small></p>
+    </div>
+  </div>
 </header>
+
 
 <!-- ==========================
      Categoria: Eletrônicos
@@ -347,7 +368,7 @@
 </section>
 
 <footer>
-  <p>Site criado com ♥ para divulgar promoções da Shopee. Links de afiliado serão atualizados regularmente.</p>
+  <p>Site criado com ♥ para divulgar promoções da Shopee. Os prodtos são atualizado regularmente.</p>
 </footer>
 
 </body>
